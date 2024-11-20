@@ -68,7 +68,7 @@ Stop the detection and close the webcam feed by clicking Stop Detection.
 
 ## Screenshot
 
-![Description of the screenshot](Driver Drowsiness Detection/assets/eye1.jpg)
+![](https://github.com/AishwaryaChandel27/Driver-Drowsiness-Detection-System/blob/main/Driver%20Drowsiness%20Detection/assets/eye1.jpg)
 ![Description of the screenshot](Driver Drowsiness Detection/assets/eye2.png)
 ![Description of the screenshot](Driver Drowsiness Detection/assets/eye3.jpg)
 ![Description of the screenshot](Driver Drowsiness Detection/assets/interface.jpg)
