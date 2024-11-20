@@ -1,6 +1,4 @@
-﻿# Driver-Drowsiness-Detection-System
 
- 
 # Drowsiness Detection System
 
 This project implements a **Drowsiness Detection System** that uses computer vision and machine learning to monitor a user's eyes for signs of drowsiness. The system works in real-time using the webcam to detect when a person is blinking excessively or showing signs of drowsiness, triggering an alert sound. 
@@ -39,11 +37,11 @@ To install the required libraries, run:
 
 ```bash
 pip install opencv-python dlib imutils pygame scipy
-
+```
 
 ## Appendix
 
-Usage
+## Usage
 Start Detection:
 Launch the application by running main.py.
 Click Start Detection to begin monitoring for drowsiness.
@@ -53,11 +51,11 @@ Click Stop Detection to stop the monitoring process.
 Alert:
 If drowsiness is detected (EAR is below a certain threshold), an alert will be triggered with a warning message displayed on the screen, and an audio sound will be played.
 Code Overview
-Key Files:
+## Key Files:
 main.py: The main Python script that runs the Drowsiness Detection System and the Tkinter GUI.
 models/shape_predictor_68_face_landmarks.dat: The Dlib facial landmark predictor model.
 music.wav: The alert sound that will play when drowsiness is detected.
-Functionality:
+## Functionality:
 Eye Aspect Ratio (EAR): The EAR is calculated using the distances between key eye landmarks, and a threshold is used to determine if the user is drowsy.
 Tkinter GUI: A simple interface that provides buttons to start and stop detection. It also provides visual alerts when the user is drowsy.
 Example:
@@ -73,8 +71,8 @@ Stop the detection and close the webcam feed by clicking Stop Detection.
 ![Description of the screenshot](Driver Drowsiness Detection/assets/eye1.jpg)
 ![Description of the screenshot](Driver Drowsiness Detection/assets/eye2.png)
 ![Description of the screenshot](Driver Drowsiness Detection/assets/eye3.jpg)
-![Description of the screenshot](Driver Drowsiness Detection\assets\interface.jpg)
-![Description of the screenshot](Driver Drowsiness Detection\assets\working.jpg)
+![Description of the screenshot](Driver Drowsiness Detection/assets/interface.jpg)
+![Description of the screenshot](Driver Drowsiness Detection/assets/working.jpg)
 
 ## Contributing
 
@@ -87,5 +85,4 @@ Please adhere to this project's `code of conduct`.
 
 ## License
 This project is licensed under the MIT License - see the LICENSE.md file for details.
-
 
